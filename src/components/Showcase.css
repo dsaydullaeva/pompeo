@@ -1,0 +1,11 @@
+.showcaseContainer {
+  background-image: url('../assets/background1.png');
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bgImg {
+  /* width: 49rem;
+  height: 27.8125rem; */
+}
