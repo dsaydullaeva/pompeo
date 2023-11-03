@@ -52,7 +52,7 @@ export default function OnlineStore () {
            <Title h3='our online store' h2='pottery collection'/>
             <div className="cards">
             {
-            cardData.map((item)=>(<Card img={item.image} title={item.title} price={item.price}/>))
+            cardData.map((item, index)=>(<Card key={index} img={item.image} title={item.title} price={item.price}/>))
            }
             </div>
             <Button name='view Collection' color='#AC1313'/>
