@@ -1,7 +1,7 @@
 .showcaseContainer {
   background-image: url('../assets/background1.png');
   display: flex;
-  width: 100vw;
+  /* width: 100vw; */
   height: 87vh;
   align-items: center;
 }
