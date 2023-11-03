@@ -2,10 +2,35 @@
   background-image: url('../assets/background1.png');
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 87vh;
+  align-items: center;
+}
+
+.showcaseContainer figure {
+  flex-basis: 90%;
+  width: 49rem;
 }
 
 .bgImg {
-  /* width: 49rem;
-  height: 27.8125rem; */
+  width: 100%;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showcaseText {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+}
+
+.showcaseContainer p {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6C6C6C;
 }

@@ -1,0 +1,50 @@
+.news-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  height: 42rem;
+  justify-content: center;
+}
+
+.news-container h3, .news-container h2 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.news-container h3 {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+.news-container form {
+  display: flex;
+  align-items: center;
+}
+.news-container .mail {
+  width: 31.25rem;
+  padding: 1rem;
+  border: 1px solid #A1A1A1;
+  font-size: 0.875rem; 
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.news-container label {
+  font-size: 0.875rem; 
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #A1A1A1;
+  
+}
+
+.news-container .check {
+  background-color: #8534FF;
+  margin-right: 1rem;
+  color: #8534FF;
+}
+
+.news-container img {
+  width: 4rem;
+  height: 4rem;
+}
