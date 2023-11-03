@@ -26,7 +26,7 @@ export default function ProductCategories () {
                 <img src={img4} alt=""/>
                 <TextCard h3='Gold & Black Pottery' p='Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore dolore aua. Ut enim ad minim veniam, quis nostrud exercitationulco laboris nisi ut aliquip ex ea commodo consequatuisaute.' h4='View Details'/>
                 <TextCard h3='Orange Ceramic' p='Pri cu dico labores officiis, odio principes complectitur ad sea. Sea id doctus forensibus, nec lorem vocent aliquam eu. Aliquid definitiones id cum, ad meliore perpetua referrentur sed. Quas suscipit ad mea verear vivendo tincidunt.' h4='View Details'/>
-                <img src={img5} alt=""/>
+                <img src={img5} alt="" className='orange'/>
             </div>
             </div>
         </Container>

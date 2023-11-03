@@ -1,0 +1,26 @@
+.shopping {
+    background-image: url(../assets/background2.jpeg);
+    padding: 120px 0;
+    background-size: cover;
+    background-position: center;
+    margin-top: 120px;
+}
+.shoppingText {
+    color: #6C6C6C;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-top: 15px;
+}
+.shoppingText span {
+    color: #AC1313;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    line-height: 24px; 
+}
+.shopping button {
+    margin-top: 20px;
+}
+.shopping h2 {
+    margin-top: 10px;
+}

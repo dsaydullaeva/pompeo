@@ -33,3 +33,56 @@
     width: 500px;
     height: 420px;
 }
+
+
+@media (max-width: 1110px) {
+    .productType {
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .productType img {
+        width: 33%;
+    }
+    .info {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .info .textCard {
+        width: 80%;
+    }
+    .details {
+        gap: 30px;
+    }
+    .details .textCard {
+        width: 80%;
+    }
+    .details img {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 810px) {
+   .productType {
+    flex-direction: column;
+   }
+   .productType img {
+    width: 100%;
+   }
+   .info .textCard {
+    width: 100%;
+}
+.details {
+    grid-template-columns: 1fr;
+}
+.details .textCard {
+    width: 100%;
+}
+.details img {
+    width: 100%;
+}
+.orange {
+    grid-row: 3/4;
+}
+}
