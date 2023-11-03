@@ -1,12 +1,13 @@
 import './App.css'
-import Button from './components/Button'
+import Navbar from './components/Navbar'
 import Showcase from './components/Showcase'
-import Container from './components/Container'
-import Card from './components/Card'
+import ProductCategories from './components/ProductCategories'
 import OnlineStore from './components/OnlineStore'
+import News from './components/News'
+import Footer from './components/Footer'
+
 
 function App() {
-
   return (
    <div>
 
